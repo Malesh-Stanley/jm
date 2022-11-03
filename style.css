@@ -102,7 +102,7 @@ html{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    background: url(images/fly.png) no-repeat center/cover;
+    background: url(images/fly.png) no-repeat center/cover ;
 }
 #pic{
     display: flex;
@@ -248,7 +248,7 @@ div.three:hover{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+    background: linear-gradient(to top, rgb(45, 48, 255) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
     opacity: 20%;
@@ -257,7 +257,7 @@ div.three:hover{
     background-position: left bottom;
     color: white;
     border: none;
-    box-shadow: 0 0 20px rgb(255, 45, 45);
+    box-shadow: 0 0 20px rgb(66, 45, 255);
     opacity: 75%;
 }
 .box img{
@@ -308,6 +308,16 @@ div.three:hover{
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+}
+.social-icon{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icon img{
+    width: 40px;
+    display: block;
+    margin: 25px 5px;
 }
 @media only screen and (max-width: 400px) {
     .navbar {
